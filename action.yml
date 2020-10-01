@@ -1,0 +1,21 @@
+name: "Check and reject spam PRs"
+description: "Run basic checks and close & mark spam PRs"
+author: "Andrey Slotin"
+inputs:
+  spam_label:
+    description: "Spam label text"
+    required: false
+    default: "Spam"
+  close_spam_prs:
+    description: "Automatically close spam PRs (yes/no)?"
+    required: false
+    default: "yes"
+runs:
+  using: docker
+  image: "Dockerfile"
+  env:
+    SPAM_LABEL: ${{ inputs.spam_label }}
+    CLOSE_SPAM_PRS: ${{ inputs.close_spam_prs }}
+branding:
+  icon: "thumbs-down"
+  color: "red"
