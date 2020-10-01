@@ -123,7 +123,7 @@ func MarkAsSpam(ctx context.Context, owner, repo string, num int, client *github
 
 	log.Printf("marked %s/%s#%d as spam", owner, repo, num)
 
-	if _, ok := os.LookupEnv("CLOSE_SPAM_PRS"); !ok {
+	if close := os.Getenv("CLOSE_SPAM_PRS"); close != "yes" {
 		return nil
 	}
 
