@@ -1,0 +1,10 @@
+name: Spam filter
+on:
+  pull_request:
+    types: [opened, reopened]
+jobs:
+  triage:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Rummelsnuff
+        uses: andrewslotin/rummelsnuff@0.1.0
