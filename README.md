@@ -1,7 +1,7 @@
 Rummelsnuff
 ===========
 
-A GitHub action to mark and close spam PRs created to get a free HacktoberFest T-shirt.
+A GitHub action to mark and close spam PRs created to get a free T-shirt.
 
 Rules
 -----
