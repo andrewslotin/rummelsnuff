@@ -35,9 +35,6 @@ func main() {
 	)
 	tc := oauth2.NewClient(ctx, ts)
 
-	fmt.Println("GITHUB_EVENT_PATH=", os.Getenv("GITHUB_EVENT_PATH"))
-	fmt.Println("INPUT_PR_NUM=", os.Getenv("INPUT_PR_NUM"))
-
 	client := github.NewClient(tc)
 
 	owner, repo, err := splitRepositoryName(os.Getenv("GITHUB_REPOSITORY"))
@@ -46,6 +43,9 @@ func main() {
 	}
 
 	prNum, err := getPullRequestNumber(ctx, owner, repo, client)
+	if err != nil {
+		log.Fatalf("could not fetch PR number: %s", err)
+	}
 
 	pr, _, err := client.PullRequests.Get(ctx, owner, repo, prNum)
 	if err != nil {
@@ -72,7 +72,7 @@ func main() {
 
 	files, _, err := client.PullRequests.ListFiles(ctx, owner, repo, prNum, nil)
 	if err != nil {
-		log.Fatalf("could not fetch the list of changed files in %s/%s#d: %w", owner, repo, prNum, err)
+		log.Fatalf("could not fetch the list of changed files in %s/%s#%d: %w", owner, repo, prNum, err)
 	}
 
 	docsOnly := true

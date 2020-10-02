@@ -10,4 +10,4 @@ jobs:
         uses: andrewslotin/rummelsnuff@master
         with:
           access_token: ${{ secrets.GITHUB_TOKEN }}
-          pr_num: ${{ github.event.pull_request.number }}
+          pr_num: ${{ github.event.number }}
