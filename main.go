@@ -35,12 +35,12 @@ func main() {
 	)
 	tc := oauth2.NewClient(ctx, ts)
 
-	owner, repo, err := SplitRepositoryName(os.Getenv("GITHUB_REPOSITORY"))
+	owner, repo, err := splitRepositoryName(os.Getenv("GITHUB_REPOSITORY"))
 	if err != nil {
 		log.Fatalln(err)
 	}
 
-	prNum, err := ParsePullRequestNumber(os.Getenv("GITHUB_REF"))
+	prNum, err := parsePullRequestNumber(os.Getenv("GITHUB_REF"))
 	if err != nil {
 		log.Fatalln(err)
 	}
@@ -99,7 +99,7 @@ func main() {
 	}
 }
 
-func SplitRepositoryName(repo string) (string, string, error) {
+func splitRepositoryName(repo string) (string, string, error) {
 	kv := strings.SplitN(repo, "/", 2)
 	if len(kv) != 2 {
 		return "", "", fmt.Errorf("invalid repo name %s", repo)
@@ -108,7 +108,7 @@ func SplitRepositoryName(repo string) (string, string, error) {
 	return kv[0], kv[1], nil
 }
 
-func ParsePullRequestNumber(ref string) (int, error) {
+func parsePullRequestNumber(ref string) (int, error) {
 	s := strings.TrimPrefix(strings.TrimSuffix(ref, "/merge"), "refs/pull/")
 	n, err := strconv.Atoi(s)
 	if err != nil {
