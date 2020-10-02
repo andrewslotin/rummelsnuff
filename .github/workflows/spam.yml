@@ -9,4 +9,4 @@ jobs:
       - name: Rummelsnuff
         uses: andrewslotin/rummelsnuff@master
         with:
-          access_token: ${{ secrets.GITHUB_TOKEN }}
+          access_token: ${{ secrets.RUMMELSNUFF_TOKEN }}
