@@ -20,11 +20,11 @@ var (
 )
 
 func main() {
-	if lbl := os.Getenv("SPAM_LABEL"); lbl != "" {
+	if lbl := os.Getenv("INPUT_SPAM_LABEL"); lbl != "" {
 		SpamLabel = lbl
 	}
 
-	token := os.Getenv("ACCESS_TOKEN")
+	token := os.Getenv("INPUT_ACCESS_TOKEN")
 	if token == "" {
 		log.Fatalln("missing token")
 	}
@@ -165,7 +165,7 @@ func MarkAsSpam(ctx context.Context, owner, repo string, num int, client *github
 
 	log.Printf("marked %s/%s#%d as spam", owner, repo, num)
 
-	if close := os.Getenv("CLOSE_SPAM_PRS"); close != "yes" {
+	if close := os.Getenv("INPUT_CLOSE_SPAM_PRS"); close != "yes" {
 		return nil
 	}
 
