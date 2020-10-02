@@ -24,9 +24,21 @@ func main() {
 		SpamLabel = lbl
 	}
 
+	var token string
+	switch {
+	case os.Getenv("ACTIONS_RUNTIME_TOKEN") != "":
+		token = os.Getenv("ACTIONS_RUNTIME_TOKEN")
+	case os.Getenv("GITHUB_TOKEN") != "":
+		token = os.Getenv("GITHUB_TOKEN")
+	case os.Getenv("ACCESS_TOKEN") != "":
+		token = os.Getenv("ACCESS_TOKEN")
+	default:
+		log.Fatalln("missing token")
+	}
+
 	ctx := context.Background()
 	ts := oauth2.StaticTokenSource(
-		&oauth2.Token{AccessToken: os.Getenv("GITHUB_TOKEN")},
+		&oauth2.Token{AccessToken: token},
 	)
 	tc := oauth2.NewClient(ctx, ts)
 
