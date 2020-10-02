@@ -17,7 +17,7 @@ Configuration
 
 The action needs an access token to manage PRs. To provide an access token, add `access_token: ${{ secrets.GITHUB_TOKEN }}` to the `with:` section of your workflow step (see example below).
 
-By default this action adds "Spam" label and closes the PR that is recognized as spam. A custom label can be provided via the `spam_label` input. To disable closing PRs set the `close_spam_prs` to any value except `"yes"`, for example:
+By default this action adds "Spam" label and closes the PR that is recognized as spam. A custom label can be provided via the `spam_label` input. To disable closing PRs set the `close_spam_prs` to any value except `"yes"`:
 
 ``` yaml
 - name: Rummelsnuff
