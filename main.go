@@ -35,8 +35,10 @@ func main() {
 	)
 	tc := oauth2.NewClient(ctx, ts)
 
-	log.Printf("GITHUB_REF=%s", os.Getenv("GITHUB_REPOSITORY"))
-	log.Printf("GITHUB_REF=%s", os.Getenv("GITHUB_SHA"))
+	log.Printf("GITHUB_REPOSITORY=%s", os.Getenv("GITHUB_REPOSITORY"))
+	log.Printf("GITHUB_SHA=%s", os.Getenv("GITHUB_SHA"))
+
+	client := github.NewClient(tc)
 
 	owner, repo, err := splitRepositoryName(os.Getenv("GITHUB_REPOSITORY"))
 	if err != nil {
@@ -45,10 +47,13 @@ func main() {
 
 	prNum, err := parsePullRequestNumber(os.Getenv("GITHUB_REF"))
 	if err != nil {
-		log.Fatalln(err)
-	}
+		log.Printf("failed to find the pull request by ref: %s", err)
 
-	client := github.NewClient(tc)
+		prNum, err = GetPullRequestBySHA(ctx, owner, repo, os.Getenv("GITHUB_SHA"), client)
+		if err != nil {
+			log.Fatalln(err)
+		}
+	}
 
 	pr, _, err := client.PullRequests.Get(ctx, owner, repo, prNum)
 	if err != nil {
@@ -125,6 +130,21 @@ func parsePullRequestNumber(ref string) (int, error) {
 	}
 
 	return n, nil
+}
+
+func GetPullRequestBySHA(ctx context.Context, owner, repo, sha string, client *github.Client) (int, error) {
+	prs, _, err := client.PullRequests.ListPullRequestsWithCommit(ctx, owner, repo, sha, &github.PullRequestListOptions{
+		State: "open",
+	})
+	if err != nil {
+		return 0, fmt.Errorf("could not search for pull requests: %w", err)
+	}
+
+	if len(prs) == 0 {
+		return 0, fmt.Errorf("could not find a pull request containing %s", sha)
+	}
+
+	return prs[0].GetNumber(), nil
 }
 
 func MarkAsSpam(ctx context.Context, owner, repo string, num int, client *github.Client) error {
