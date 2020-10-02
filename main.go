@@ -86,7 +86,7 @@ func main() {
 		os.Exit(1)
 	}
 
-	if (docsOnly && pr.GetAdditions()+pr.GetDeletions() < 10 {
+	if docsOnly && pr.GetAdditions()+pr.GetDeletions() < 10 {
 		fmt.Printf("::error %s/%s#%d: pull request is only few changes in documentation", owner, repo, prNum)
 		MarkAsSpam(ctx, owner, repo, prNum, client)
 		os.Exit(1)
