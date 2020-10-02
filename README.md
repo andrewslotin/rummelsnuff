@@ -6,7 +6,7 @@ A GitHub action to mark and close spam PRs created to get a free HacktoberFest T
 Rules
 -----
 
-A pull request is considered as spam in following cases:
+A pull request is considered as spam if it's coming from a forked repository and meets at least one of following criterias:
 
 * The author has registered after this year's Hacktoberfest and has only forked repositories
 * The PR is changing documentation insignificantly
