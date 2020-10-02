@@ -82,19 +82,25 @@ func main() {
 
 	if u.GetCreatedAt().After(HacktoberfestStartDate.Add(-24*time.Hour)) && len(repos) == forksCount {
 		fmt.Printf("::error %s/%s#%d: user registered less than one day before Hacktoberfest and has only forked repositories", owner, repo, prNum)
-		MarkAsSpam(ctx, owner, repo, prNum, client)
+		if err := MarkAsSpam(ctx, owner, repo, prNum, client); err != nil {
+			log.Printf("failed to close a spam pr: %s", err)
+		}
 		os.Exit(1)
 	}
 
 	if docsOnly && pr.GetAdditions()+pr.GetDeletions() < 10 {
 		fmt.Printf("::error %s/%s#%d: pull request is only few changes in documentation", owner, repo, prNum)
-		MarkAsSpam(ctx, owner, repo, prNum, client)
+		if err := MarkAsSpam(ctx, owner, repo, prNum, client); err != nil {
+			log.Printf("failed to close a spam pr: %s", err)
+		}
 		os.Exit(1)
 	}
 
 	if len(files) == 1 && (pr.GetAdditions() == 0 || pr.GetDeletions() == 0) {
 		fmt.Printf("::error %s/%s#%d: only one file changed with either additions or delitions only", owner, repo, prNum)
-		MarkAsSpam(ctx, owner, repo, prNum, client)
+		if err := MarkAsSpam(ctx, owner, repo, prNum, client); err != nil {
+			log.Printf("failed to close a spam pr: %s", err)
+		}
 		os.Exit(1)
 	}
 }
