@@ -8,6 +8,9 @@ inputs:
   pr_num:
     description: "The pull request number (from github.event.pull_request.number)"
     required: true
+  forked:
+    description: "Whether the PR is from a forked repo (from github.event.head.fork)"
+    required: true
   spam_label:
     description: "Spam label text"
     required: false

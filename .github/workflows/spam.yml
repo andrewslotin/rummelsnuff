@@ -11,3 +11,4 @@ jobs:
         with:
           access_token: ${{ secrets.GITHUB_TOKEN }}
           pr_num: ${{ github.event.number }}
+          forked: ${{ from github.event.head.fork }}
