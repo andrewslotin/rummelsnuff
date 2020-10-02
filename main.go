@@ -35,6 +35,10 @@ func main() {
 	)
 	tc := oauth2.NewClient(ctx, ts)
 
+	log.Printf("GITHUB_REF=%s", os.Getenv("GITHUB_REF"))
+	log.Printf("GITHUB_BASE_REF=%s", os.Getenv("GITHUB_BASE_REF"))
+	log.Printf("GITHUB_HEAD_REF=%s", os.Getenv("GITHUB_HEAD_REF"))
+
 	owner, repo, err := splitRepositoryName(os.Getenv("GITHUB_REPOSITORY"))
 	if err != nil {
 		log.Fatalln(err)
