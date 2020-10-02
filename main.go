@@ -2,6 +2,7 @@ package main
 
 import (
 	"context"
+	"encoding/json"
 	"fmt"
 	"log"
 	"os"
@@ -19,6 +20,11 @@ var (
 	ClosedState            = "closed"
 )
 
+type Event struct {
+	Number      int                 `json:"number"`
+	PullRequest *github.PullRequest `json:"pull_request"`
+}
+
 func main() {
 	if lbl := os.Getenv("INPUT_SPAM_LABEL"); lbl != "" {
 		SpamLabel = lbl
@@ -35,8 +41,6 @@ func main() {
 	)
 	tc := oauth2.NewClient(ctx, ts)
 
-	log.Println("INPUT_FORKED", os.Getenv("INPUT_FORKED"))
-
 	client := github.NewClient(tc)
 
 	owner, repo, err := splitRepositoryName(os.Getenv("GITHUB_REPOSITORY"))
@@ -44,9 +48,21 @@ func main() {
 		log.Fatalln(err)
 	}
 
-	prNum, err := getPullRequestNumber(ctx, owner, repo, client)
+	fd, err := os.Open(os.Getenv("GITHUB_EVENT_PATH"))
 	if err != nil {
-		log.Fatalf("could not fetch PR number: %s", err)
+		log.Fatalf("failed to read event data: %s", err)
+	}
+
+	var event Event
+	if err := json.NewDecoder(fd).Decode(&event); err != nil {
+		log.Fatalf("failed to decode event data: %s", err)
+	}
+	fd.Close()
+
+	prNum, forked := event.Number, event.PullRequest.Head.Repo.GetFork()
+	if !forked {
+		fmt.Println("the pull request is not from a forked repository")
+		os.Exit(0)
 	}
 
 	pr, _, err := client.PullRequests.Get(ctx, owner, repo, prNum)
