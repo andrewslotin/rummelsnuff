@@ -35,6 +35,8 @@ func main() {
 	)
 	tc := oauth2.NewClient(ctx, ts)
 
+	log.Println("INPUT_FORKED", os.Getenv("INPUT_FORKED"))
+
 	client := github.NewClient(tc)
 
 	owner, repo, err := splitRepositoryName(os.Getenv("GITHUB_REPOSITORY"))
