@@ -7,4 +7,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Rummelsnuff
-        uses: andrewslotin/rummelsnuff@0.1.0
+        uses: andrewslotin/rummelsnuff@master
+        with:
+          access_token: ${{ secrets.GITHUB_TOKEN }}

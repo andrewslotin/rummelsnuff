@@ -1,0 +1,399 @@
+maximelafarie/spamtoberfest#10: ok
+kunal-kushwaha/ML-Cloak#4: ok
+wesbos/dad-jokes#217: user registered less than one day before Hacktoberfest and has only forked repositories
+neon-bindings/website#175: pull request has few changes either in a single file or only in documentation
+OCA/website-themes#85: user registered less than one day before Hacktoberfest and has only forked repositories
+megubyte/lol-hacktoberfest#1: only one file changed with either additions or delitions only
+codesankalp/dsalgo#58: only one file changed with either additions or delitions only
+Rebuild-Black-Business/RBB-Website#362: user registered less than one day before Hacktoberfest and has only forked repositories
+sbt/website#937: user registered less than one day before Hacktoberfest and has only forked repositories
+vanruby/vanruby.github.io#69: pull request has few changes either in a single file or only in documentation
+vanruby/vanruby.github.io#68: user registered less than one day before Hacktoberfest and has only forked repositories
+cloudflare/cloudflare-docs-engine#277: user registered less than one day before Hacktoberfest and has only forked repositories
+getredash/website#501: pull request has few changes either in a single file or only in documentation
+boostorg/website#554: pull request has few changes either in a single file or only in documentation
+COVID19Tracking/website#1483: user registered less than one day before Hacktoberfest and has only forked repositories
+tent/tent.io#243: user registered less than one day before Hacktoberfest and has only forked repositories
+WebAssembly/website#213: pull request has few changes either in a single file or only in documentation
+intuit/qb-animation-library#19: pull request has few changes either in a single file or only in documentation
+owntracks/android#861: pull request has few changes either in a single file or only in documentation
+appveyor/website#763: pull request has few changes either in a single file or only in documentation
+python-pillow/docker-images#87: pull request has few changes either in a single file or only in documentation
+WebPlatformTest/HTML5test#578: user registered less than one day before Hacktoberfest and has only forked repositories
+nim-lang/website#224: user registered less than one day before Hacktoberfest and has only forked repositories
+openstreetmap/openstreetmap-website#2873: user registered less than one day before Hacktoberfest and has only forked repositories
+parcel-bundler/website#712: pull request has few changes either in a single file or only in documentation
+ReactionMechanismGenerator/RMG-website#206: pull request has few changes either in a single file or only in documentation
+whatwg/html#6007: pull request has few changes either in a single file or only in documentation
+parcel-bundler/website#711: pull request has few changes either in a single file or only in documentation
+neon-bindings/website#174: pull request has few changes either in a single file or only in documentation
+sbt/website#936: user registered less than one day before Hacktoberfest and has only forked repositories
+christian-bromann/flask-webdriver-demo#2: pull request has few changes either in a single file or only in documentation
+Hamakor/AugustPenguin#202: user registered less than one day before Hacktoberfest and has only forked repositories
+appveyor/website#762: pull request has few changes either in a single file or only in documentation
+designmodo/html-website-templates#24: pull request has few changes either in a single file or only in documentation
+react-navigation/web#54: pull request has few changes either in a single file or only in documentation
+neon-bindings/website#173: user registered less than one day before Hacktoberfest and has only forked repositories
+UQComputingSociety/website#216: user registered less than one day before Hacktoberfest and has only forked repositories
+hydrusnetwork/hydrus#673: pull request has few changes either in a single file or only in documentation
+vJechsmayr/PythonAlgorithms#82: only one file changed with either additions or delitions only
+Palanaeum/palanaeum#81: pull request has few changes either in a single file or only in documentation
+servo/servo#27680: pull request has few changes either in a single file or only in documentation
+parcel-bundler/website#710: pull request has few changes either in a single file or only in documentation
+kunal-kushwaha/Competitive-Programming-Resources#3: ok
+whatwg/html#6006: pull request has few changes either in a single file or only in documentation
+openstreetmap/openstreetmap-website#2871: pull request has few changes either in a single file or only in documentation
+softwarecrafters/website#126: pull request has few changes either in a single file or only in documentation
+yangshun/2048-python#15: only one file changed with either additions or delitions only
+healthchecks/healthchecks#438: pull request has few changes either in a single file or only in documentation
+KeenRivals/bestmotherfucking.website#48: user registered less than one day before Hacktoberfest and has only forked repositories
+SethClydesdale/genki-study-resources#95: ok
+monizb/FireShort#59: pull request has few changes either in a single file or only in documentation
+whatwg/html#6005: pull request has few changes either in a single file or only in documentation
+kubeedge/website#94: user registered less than one day before Hacktoberfest and has only forked repositories
+dipakkr/A-to-Z-Resources-for-Students#1307: pull request has few changes either in a single file or only in documentation
+COVID19Tracking/website#1481: user registered less than one day before Hacktoberfest and has only forked repositories
+parcel-bundler/website#709: user registered less than one day before Hacktoberfest and has only forked repositories
+hydrusnetwork/hydrus#672: pull request has few changes either in a single file or only in documentation
+mozilla/foundation.mozilla.org#5368: user registered less than one day before Hacktoberfest and has only forked repositories
+vJechsmayr/PythonAlgorithms#73: only one file changed with either additions or delitions only
+vJechsmayr/PythonAlgorithms#72: only one file changed with either additions or delitions only
+ajalt/fuckitpy#41: user registered less than one day before Hacktoberfest and has only forked repositories
+TokTok/website#239: user registered less than one day before Hacktoberfest and has only forked repositories
+COVID19Tracking/website#1480: user registered less than one day before Hacktoberfest and has only forked repositories
+cloudflare/lol-html#66: pull request has few changes either in a single file or only in documentation
+smoke-trees/website#49: ok
+Genymobile/gm_pr#98: only one file changed with either additions or delitions only
+pyviz-dev/nbsite#180: pull request has few changes either in a single file or only in documentation
+TechieBoy/Artemis#6: pull request has few changes either in a single file or only in documentation
+TechieBoy/Artemis#5: pull request has few changes either in a single file or only in documentation
+getredash/website#500: only one file changed with either additions or delitions only
+TodoBackend/todo-backend-site#230: user registered less than one day before Hacktoberfest and has only forked repositories
+TechieBoy/Artemis#4: pull request has few changes either in a single file or only in documentation
+vJechsmayr/PythonAlgorithms#70: pull request has few changes either in a single file or only in documentation
+vanruby/vanruby.github.io#67: user registered less than one day before Hacktoberfest and has only forked repositories
+City-Bureau/city-scrapers#982: pull request has few changes either in a single file or only in documentation
+SethClydesdale/genki-study-resources#94: pull request has few changes either in a single file or only in documentation
+rust-lang/rustc-perf#780: pull request has few changes either in a single file or only in documentation
+RITlug/ritlug.github.io#290: user registered less than one day before Hacktoberfest and has only forked repositories
+rust-lang/rustc-perf#779: pull request has few changes either in a single file or only in documentation
+unhosted/website#68: user registered less than one day before Hacktoberfest and has only forked repositories
+godotengine/godot-website#181: user registered less than one day before Hacktoberfest and has only forked repositories
+BookStackApp/website#82: user registered less than one day before Hacktoberfest and has only forked repositories
+kyleshevlin/intro-to-data-structures-and-algorithms#21: pull request has few changes either in a single file or only in documentation
+boostorg/website#553: pull request has few changes either in a single file or only in documentation
+urish/web-ar-experiment#6: pull request has few changes either in a single file or only in documentation
+OCA/website-themes#84: pull request has few changes either in a single file or only in documentation
+kaustubhgupta/Hacktoberfest2020_#90: only one file changed with either additions or delitions only
+mjhea0/thinkful-html#11: ok
+mjhea0/thinkful-html#10: ok
+halfbyte/portmidi-ruby#2: user registered less than one day before Hacktoberfest and has only forked repositories
+jhipster/jhipster.github.io#1014: pull request has few changes either in a single file or only in documentation
+whatwg/html#6004: pull request has few changes either in a single file or only in documentation
+OCA/website-themes#83: user registered less than one day before Hacktoberfest and has only forked repositories
+consbio/Leaflet.HtmlLegend#22: user registered less than one day before Hacktoberfest and has only forked repositories
+actix/actix-website#194: pull request has few changes either in a single file or only in documentation
+RITlug/ritlug.github.io#289: ok
+maitesin/website#13: pull request has few changes either in a single file or only in documentation
+OpenSWATH/documentation#24: pull request has few changes either in a single file or only in documentation
+hydrusnetwork/hydrus#671: pull request has few changes either in a single file or only in documentation
+jgraph/drawio#1211: pull request has few changes either in a single file or only in documentation
+maximelafarie/spamtoberfest#10: ok
+kunal-kushwaha/ML-Cloak#4: ok
+wesbos/dad-jokes#217: user registered less than one day before Hacktoberfest and has only forked repositories
+neon-bindings/website#175: pull request has few changes either in a single file or only in documentation
+OCA/website-themes#85: user registered less than one day before Hacktoberfest and has only forked repositories
+megubyte/lol-hacktoberfest#1: only one file changed with either additions or delitions only
+codesankalp/dsalgo#58: only one file changed with either additions or delitions only
+Rebuild-Black-Business/RBB-Website#362: user registered less than one day before Hacktoberfest and has only forked repositories
+sbt/website#937: user registered less than one day before Hacktoberfest and has only forked repositories
+vanruby/vanruby.github.io#69: pull request has few changes either in a single file or only in documentation
+vanruby/vanruby.github.io#68: user registered less than one day before Hacktoberfest and has only forked repositories
+cloudflare/cloudflare-docs-engine#277: user registered less than one day before Hacktoberfest and has only forked repositories
+getredash/website#501: pull request has few changes either in a single file or only in documentation
+boostorg/website#554: pull request has few changes either in a single file or only in documentation
+COVID19Tracking/website#1483: user registered less than one day before Hacktoberfest and has only forked repositories
+tent/tent.io#243: user registered less than one day before Hacktoberfest and has only forked repositories
+WebAssembly/website#213: pull request has few changes either in a single file or only in documentation
+intuit/qb-animation-library#19: pull request has few changes either in a single file or only in documentation
+owntracks/android#861: pull request has few changes either in a single file or only in documentation
+appveyor/website#763: pull request has few changes either in a single file or only in documentation
+python-pillow/docker-images#87: pull request has few changes either in a single file or only in documentation
+WebPlatformTest/HTML5test#578: user registered less than one day before Hacktoberfest and has only forked repositories
+nim-lang/website#224: user registered less than one day before Hacktoberfest and has only forked repositories
+openstreetmap/openstreetmap-website#2873: user registered less than one day before Hacktoberfest and has only forked repositories
+parcel-bundler/website#712: pull request has few changes either in a single file or only in documentation
+ReactionMechanismGenerator/RMG-website#206: pull request has few changes either in a single file or only in documentation
+whatwg/html#6007: pull request has few changes either in a single file or only in documentation
+parcel-bundler/website#711: pull request has few changes either in a single file or only in documentation
+neon-bindings/website#174: pull request has few changes either in a single file or only in documentation
+sbt/website#936: user registered less than one day before Hacktoberfest and has only forked repositories
+christian-bromann/flask-webdriver-demo#2: pull request has few changes either in a single file or only in documentation
+Hamakor/AugustPenguin#202: user registered less than one day before Hacktoberfest and has only forked repositories
+appveyor/website#762: pull request has few changes either in a single file or only in documentation
+designmodo/html-website-templates#24: pull request has few changes either in a single file or only in documentation
+react-navigation/web#54: pull request has few changes either in a single file or only in documentation
+neon-bindings/website#173: user registered less than one day before Hacktoberfest and has only forked repositories
+UQComputingSociety/website#216: user registered less than one day before Hacktoberfest and has only forked repositories
+hydrusnetwork/hydrus#673: pull request has few changes either in a single file or only in documentation
+vJechsmayr/PythonAlgorithms#82: only one file changed with either additions or delitions only
+Palanaeum/palanaeum#81: pull request has few changes either in a single file or only in documentation
+servo/servo#27680: pull request has few changes either in a single file or only in documentation
+parcel-bundler/website#710: pull request has few changes either in a single file or only in documentation
+kunal-kushwaha/Competitive-Programming-Resources#3: ok
+whatwg/html#6006: pull request has few changes either in a single file or only in documentation
+openstreetmap/openstreetmap-website#2871: pull request has few changes either in a single file or only in documentation
+softwarecrafters/website#126: pull request has few changes either in a single file or only in documentation
+yangshun/2048-python#15: only one file changed with either additions or delitions only
+healthchecks/healthchecks#438: pull request has few changes either in a single file or only in documentation
+KeenRivals/bestmotherfucking.website#48: user registered less than one day before Hacktoberfest and has only forked repositories
+SethClydesdale/genki-study-resources#95: ok
+monizb/FireShort#59: pull request has few changes either in a single file or only in documentation
+whatwg/html#6005: pull request has few changes either in a single file or only in documentation
+kubeedge/website#94: user registered less than one day before Hacktoberfest and has only forked repositories
+dipakkr/A-to-Z-Resources-for-Students#1307: pull request has few changes either in a single file or only in documentation
+COVID19Tracking/website#1481: user registered less than one day before Hacktoberfest and has only forked repositories
+parcel-bundler/website#709: user registered less than one day before Hacktoberfest and has only forked repositories
+hydrusnetwork/hydrus#672: pull request has few changes either in a single file or only in documentation
+mozilla/foundation.mozilla.org#5368: user registered less than one day before Hacktoberfest and has only forked repositories
+vJechsmayr/PythonAlgorithms#73: only one file changed with either additions or delitions only
+vJechsmayr/PythonAlgorithms#72: only one file changed with either additions or delitions only
+ajalt/fuckitpy#41: user registered less than one day before Hacktoberfest and has only forked repositories
+TokTok/website#239: user registered less than one day before Hacktoberfest and has only forked repositories
+COVID19Tracking/website#1480: user registered less than one day before Hacktoberfest and has only forked repositories
+cloudflare/lol-html#66: pull request has few changes either in a single file or only in documentation
+smoke-trees/website#49: ok
+Genymobile/gm_pr#98: only one file changed with either additions or delitions only
+pyviz-dev/nbsite#180: pull request has few changes either in a single file or only in documentation
+TechieBoy/Artemis#6: pull request has few changes either in a single file or only in documentation
+TechieBoy/Artemis#5: pull request has few changes either in a single file or only in documentation
+getredash/website#500: only one file changed with either additions or delitions only
+TodoBackend/todo-backend-site#230: user registered less than one day before Hacktoberfest and has only forked repositories
+TechieBoy/Artemis#4: pull request has few changes either in a single file or only in documentation
+vJechsmayr/PythonAlgorithms#70: pull request has few changes either in a single file or only in documentation
+vanruby/vanruby.github.io#67: user registered less than one day before Hacktoberfest and has only forked repositories
+City-Bureau/city-scrapers#982: pull request has few changes either in a single file or only in documentation
+SethClydesdale/genki-study-resources#94: pull request has few changes either in a single file or only in documentation
+rust-lang/rustc-perf#780: pull request has few changes either in a single file or only in documentation
+RITlug/ritlug.github.io#290: user registered less than one day before Hacktoberfest and has only forked repositories
+rust-lang/rustc-perf#779: pull request has few changes either in a single file or only in documentation
+unhosted/website#68: user registered less than one day before Hacktoberfest and has only forked repositories
+godotengine/godot-website#181: user registered less than one day before Hacktoberfest and has only forked repositories
+BookStackApp/website#82: user registered less than one day before Hacktoberfest and has only forked repositories
+kyleshevlin/intro-to-data-structures-and-algorithms#21: pull request has few changes either in a single file or only in documentation
+boostorg/website#553: pull request has few changes either in a single file or only in documentation
+urish/web-ar-experiment#6: pull request has few changes either in a single file or only in documentation
+OCA/website-themes#84: pull request has few changes either in a single file or only in documentation
+kaustubhgupta/Hacktoberfest2020_#90: only one file changed with either additions or delitions only
+mjhea0/thinkful-html#11: ok
+mjhea0/thinkful-html#10: ok
+halfbyte/portmidi-ruby#2: user registered less than one day before Hacktoberfest and has only forked repositories
+jhipster/jhipster.github.io#1014: pull request has few changes either in a single file or only in documentation
+whatwg/html#6004: pull request has few changes either in a single file or only in documentation
+OCA/website-themes#83: user registered less than one day before Hacktoberfest and has only forked repositories
+consbio/Leaflet.HtmlLegend#22: user registered less than one day before Hacktoberfest and has only forked repositories
+actix/actix-website#194: pull request has few changes either in a single file or only in documentation
+RITlug/ritlug.github.io#289: ok
+maitesin/website#13: pull request has few changes either in a single file or only in documentation
+OpenSWATH/documentation#24: pull request has few changes either in a single file or only in documentation
+hydrusnetwork/hydrus#671: pull request has few changes either in a single file or only in documentation
+jgraph/drawio#1211: pull request has few changes either in a single file or only in documentation
+hasgeek/funnel#920: pull request has few changes either in a single file or only in documentation
+x64dbg/x64dbg.github.io#20: pull request has few changes either in a single file or only in documentation
+SteamDatabase/BrowserExtension#74: user registered less than one day before Hacktoberfest and has only forked repositories
+jakevdp/PythonDataScienceHandbook#270: only one file changed with either additions or delitions only
+susam/mano-cpu#1: ok
+kunal-kushwaha/ML-Cloak#3: pull request has few changes either in a single file or only in documentation
+AlexanderC/DiseaseControl#1: pull request has few changes either in a single file or only in documentation
+cakephp/app#809: ok
+COVID19Tracking/website#1479: pull request has few changes either in a single file or only in documentation
+smoke-trees/website#48: user registered less than one day before Hacktoberfest and has only forked repositories
+powerbot/RSBot-API#2186: user registered less than one day before Hacktoberfest and has only forked repositories
+enable3d/enable3d-website#45: pull request has few changes either in a single file or only in documentation
+smoke-trees/website#47: pull request has few changes either in a single file or only in documentation
+neon-bindings/website#172: pull request has few changes either in a single file or only in documentation
+COVID19Tracking/website#1478: ok
+JuanPotato/Activity-Scraper#1: pull request has few changes either in a single file or only in documentation
+PHPMailer/PHPMailer#2148: pull request has few changes either in a single file or only in documentation
+afsy/website#243: user registered less than one day before Hacktoberfest and has only forked repositories
+OCA/website-cms#118: user registered less than one day before Hacktoberfest and has only forked repositories
+OCA/website#775: only one file changed with either additions or delitions only
+parcel-bundler/website#707: pull request has few changes either in a single file or only in documentation
+vanruby/vanruby.github.io#66: user registered less than one day before Hacktoberfest and has only forked repositories
+oltpbenchmark/website#28: user registered less than one day before Hacktoberfest and has only forked repositories
+TodoBackend/todo-backend-site#229: pull request has few changes either in a single file or only in documentation
+ableco/techtalks.pe#71: pull request has few changes either in a single file or only in documentation
+grails/grails-static-website#159: pull request has few changes either in a single file or only in documentation
+whiskyweb/whiskyweb-website#106: pull request has few changes either in a single file or only in documentation
+sagemath/website#206: user registered less than one day before Hacktoberfest and has only forked repositories
+PHPGangsta/WebsiteToImage#88: user registered less than one day before Hacktoberfest and has only forked repositories
+OCA/website-cms#117: pull request has few changes either in a single file or only in documentation
+covindia/CovIndia-Website#102: user registered less than one day before Hacktoberfest and has only forked repositories
+winterofcode/winterofcode.github.io#17: user registered less than one day before Hacktoberfest and has only forked repositories
+runatlantis/atlantis#1208: pull request has few changes either in a single file or only in documentation
+COVID19Tracking/website#1477: pull request has few changes either in a single file or only in documentation
+gregjopa/express-app-testing-demo#16: pull request has few changes either in a single file or only in documentation
+lnug/website#164: pull request has few changes either in a single file or only in documentation
+trezor/trezor-wallet#640: pull request has few changes either in a single file or only in documentation
+PHPGangsta/WebsiteToImage#87: pull request has few changes either in a single file or only in documentation
+nisrulz/javadoc-themer#4: user registered less than one day before Hacktoberfest and has only forked repositories
+kaustubhgupta/Hacktoberfest2020_#88: ok
+python/cpython#22483: only one file changed with either additions or delitions only
+jonbarron/website#56: pull request has few changes either in a single file or only in documentation
+grails/grails-static-website#158: pull request has few changes either in a single file or only in documentation
+nim-lang/website#223: pull request has few changes either in a single file or only in documentation
+skeeto/sample-java-project#53: pull request has few changes either in a single file or only in documentation
+openfoodfacts/openfoodfacts-cordova-app-old-with-blob#30: user registered less than one day before Hacktoberfest and has only forked repositories
+kaustubhgupta/Hacktoberfest2020_#87: only one file changed with either additions or delitions only
+scipy-lectures/scipy-lecture-notes#493: pull request has few changes either in a single file or only in documentation
+SethClydesdale/genki-study-resources#93: pull request has few changes either in a single file or only in documentation
+CalebFenton/simplify#148: user registered less than one day before Hacktoberfest and has only forked repositories
+relevance/org-html-slideshow#30: user registered less than one day before Hacktoberfest and has only forked repositories
+dipy/dipy_web#83: user registered less than one day before Hacktoberfest and has only forked repositories
+rushter/MLAlgorithms#80: only one file changed with either additions or delitions only
+serde-rs/json#713: pull request has few changes either in a single file or only in documentation
+PHPGangsta/WebsiteToImage#86: ok
+parcel-bundler/website#703: user registered less than one day before Hacktoberfest and has only forked repositories
+relevance/org-html-slideshow#29: pull request has few changes either in a single file or only in documentation
+PHPGangsta/WebsiteToImage#85: pull request has few changes either in a single file or only in documentation
+getredash/website#499: pull request has few changes either in a single file or only in documentation
+UQComputingSociety/website#215: pull request has few changes either in a single file or only in documentation
+jakevdp/PythonDataScienceHandbook#269: pull request has few changes either in a single file or only in documentation
+python/cpython#22482: user registered less than one day before Hacktoberfest and has only forked repositories
+umbraco/Umbraco-CMS#9018: user registered less than one day before Hacktoberfest and has only forked repositories
+iCollin/pubg-internal#4: user registered less than one day before Hacktoberfest and has only forked repositories
+godotengine/godot#42470: ok
+juxt/crux#1147: user registered less than one day before Hacktoberfest and has only forked repositories
+smoke-trees/website#46: pull request has few changes either in a single file or only in documentation
+consbio/Leaflet.HtmlLegend#21: pull request has few changes either in a single file or only in documentation
+whatwg/html#6002: user registered less than one day before Hacktoberfest and has only forked repositories
+smoke-trees/website#45: user registered less than one day before Hacktoberfest and has only forked repositories
+developer-portal/website#108: pull request has few changes either in a single file or only in documentation
+bdukes/Website-Optimizer#8: user registered less than one day before Hacktoberfest and has only forked repositories
+makeomatic/makeomatic.ru#30: user registered less than one day before Hacktoberfest and has only forked repositories
+wesbos/JavaScript30#394: ok
+openstreetmap/openstreetmap-website#2870: user registered less than one day before Hacktoberfest and has only forked repositories
+appveyor/website#761: pull request has few changes either in a single file or only in documentation
+hasgeek/funnel#919: pull request has few changes either in a single file or only in documentation
+kisslinux/website#71: user registered less than one day before Hacktoberfest and has only forked repositories
+vanruby/vanruby.github.io#65: pull request has few changes either in a single file or only in documentation
+stormpath/stormpath-flask#100: user registered less than one day before Hacktoberfest and has only forked repositories
+videolan/vlc#115: ok
+dipy/dipy_web#82: user registered less than one day before Hacktoberfest and has only forked repositories
+jonbarron/website#54: pull request has few changes either in a single file or only in documentation
+videolan/vlc#114: ok
+bdukes/Website-Optimizer#7: user registered less than one day before Hacktoberfest and has only forked repositories
+PHPGangsta/WebsiteToImage#84: pull request has few changes either in a single file or only in documentation
+whatwg/html#6001: user registered less than one day before Hacktoberfest and has only forked repositories
+parcel-bundler/website#702: pull request has few changes either in a single file or only in documentation
+nim-lang/website#222: pull request has few changes either in a single file or only in documentation
+oVirt/ovirt-site#2360: user registered less than one day before Hacktoberfest and has only forked repositories
+vim/vim#7058: user registered less than one day before Hacktoberfest and has only forked repositories
+meraki-analytics/cassiopeia#346: user registered less than one day before Hacktoberfest and has only forked repositories
+dipy/dipy_web#81: user registered less than one day before Hacktoberfest and has only forked repositories
+grails/grails-static-website#157: user registered less than one day before Hacktoberfest and has only forked repositories
+designmodo/html-website-templates#23: pull request has few changes either in a single file or only in documentation
+AlexKvazos/VanillaToasts#32: user registered less than one day before Hacktoberfest and has only forked repositories
+whatwg/html#6000: user registered less than one day before Hacktoberfest and has only forked repositories
+WebKitGTK/webkitgtk.org#8: ok
+cuberite/users-manual#114: pull request has few changes either in a single file or only in documentation
+DevOpsBootcamp/website#171: pull request has few changes either in a single file or only in documentation
+BookStackApp/website#81: pull request has few changes either in a single file or only in documentation
+neon-bindings/website#171: pull request has few changes either in a single file or only in documentation
+designmodo/html-website-templates#22: ok
+designingsean/Timeclock#4: ok
+openfoodfacts/openfoodfacts-cordova-app-old-with-blob#29: user registered less than one day before Hacktoberfest and has only forked repositories
+grpc/grpc#24301: only one file changed with either additions or delitions only
+PHPGangsta/WebsiteToImage#83: pull request has few changes either in a single file or only in documentation
+grails/grails-static-website#156: pull request has few changes either in a single file or only in documentation
+AlexKvazos/VanillaToasts#31: pull request has few changes either in a single file or only in documentation
+smoke-trees/website#44: pull request has few changes either in a single file or only in documentation
+PHPGangsta/WebsiteToImage#82: user registered less than one day before Hacktoberfest and has only forked repositories
+parcel-bundler/website#701: pull request has few changes either in a single file or only in documentation
+OCA/website-themes#82: pull request has few changes either in a single file or only in documentation
+OCA/website-themes#81: pull request has few changes either in a single file or only in documentation
+ooni/ooni.org#623: ok
+wesbos/dad-jokes#216: pull request has few changes either in a single file or only in documentation
+PHPGangsta/WebsiteToImage#81: pull request has few changes either in a single file or only in documentation
+grails/grails-static-website#155: user registered less than one day before Hacktoberfest and has only forked repositories
+OCA/website-themes#80: pull request has few changes either in a single file or only in documentation
+dipy/dipy_web#80: user registered less than one day before Hacktoberfest and has only forked repositories
+fork-maintainers/iceraven-browser#196: user registered less than one day before Hacktoberfest and has only forked repositories
+SethClydesdale/genki-study-resources#92: pull request has few changes either in a single file or only in documentation
+vanruby/vanruby.github.io#64: pull request has few changes either in a single file or only in documentation
+powerbot/RSBot-API#2185: user registered less than one day before Hacktoberfest and has only forked repositories
+bkimminich/juice-shop#1481: only one file changed with either additions or delitions only
+boostorg/website#552: pull request has few changes either in a single file or only in documentation
+techqueria/website#762: pull request has few changes either in a single file or only in documentation
+stl-public-meetings/city-scrapers-stl#109: ok
+toricls/pingbot#17: pull request has few changes either in a single file or only in documentation
+designmodo/html-website-templates#21: pull request has few changes either in a single file or only in documentation
+wesbos/dad-jokes#215: pull request has few changes either in a single file or only in documentation
+PHPGangsta/WebsiteToImage#80: user registered less than one day before Hacktoberfest and has only forked repositories
+loadimpact/k6-docs#127: pull request has few changes either in a single file or only in documentation
+dipakkr/A-to-Z-Resources-for-Students#1303: pull request has few changes either in a single file or only in documentation
+code4romania/monitorizare-vot#300: pull request has few changes either in a single file or only in documentation
+kisslinux/website#70: pull request has few changes either in a single file or only in documentation
+wurstmineberg/wurstmineberg.de#25: pull request has few changes either in a single file or only in documentation
+whatwg/html#5999: pull request has few changes either in a single file or only in documentation
+OCA/website-themes#79: user registered less than one day before Hacktoberfest and has only forked repositories
+WebAssembly/website#212: pull request has few changes either in a single file or only in documentation
+pyviz-dev/nbsite#179: user registered less than one day before Hacktoberfest and has only forked repositories
+OpenTTD/website#172: user registered less than one day before Hacktoberfest and has only forked repositories
+jonbarron/website#53: pull request has few changes either in a single file or only in documentation
+jakevdp/PythonDataScienceHandbook#267: pull request has few changes either in a single file or only in documentation
+OCA/website-themes#78: user registered less than one day before Hacktoberfest and has only forked repositories
+nextcloud/nextcloud.com#1363: user registered less than one day before Hacktoberfest and has only forked repositories
+getify/Functional-Light-JS#197: pull request has few changes either in a single file or only in documentation
+blitz-js/blitzjs.com#208: pull request has few changes either in a single file or only in documentation
+PHPGangsta/WebsiteToImage#79: pull request has few changes either in a single file or only in documentation
+sous-chefs/java#640: pull request has few changes either in a single file or only in documentation
+actix/actix-website#193: pull request has few changes either in a single file or only in documentation
+grpc/grpc#24300: only one file changed with either additions or delitions only
+BookStackApp/website#80: user registered less than one day before Hacktoberfest and has only forked repositories
+jonbarron/website#52: pull request has few changes either in a single file or only in documentation
+ros2/rcutils#296: pull request has few changes either in a single file or only in documentation
+PHPGangsta/WebsiteToImage#78: user registered less than one day before Hacktoberfest and has only forked repositories
+wesbos/dad-jokes#214: user registered less than one day before Hacktoberfest and has only forked repositories
+jonbarron/website#51: pull request has few changes either in a single file or only in documentation
+championshuttler/docker-basicLearning#2: only one file changed with either additions or delitions only
+timhawes/MqttNet#1: ok
+PHPGangsta/WebsiteToImage#77: pull request has few changes either in a single file or only in documentation
+wesbos/dad-jokes#213: pull request has few changes either in a single file or only in documentation
+grpc/grpc#24298: user registered less than one day before Hacktoberfest and has only forked repositories
+fork-maintainers/iceraven-browser#195: user registered less than one day before Hacktoberfest and has only forked repositories
+grails/grails-core#11628: user registered less than one day before Hacktoberfest and has only forked repositories
+VinceG/Bootstrap-ecommerce-theme#1: user registered less than one day before Hacktoberfest and has only forked repositories
+kaustubhgupta/Hacktoberfest2020_#70: user registered less than one day before Hacktoberfest and has only forked repositories
+PHPGangsta/WebsiteToImage#76: pull request has few changes either in a single file or only in documentation
+kaustubhgupta/Hacktoberfest2020_#69: user registered less than one day before Hacktoberfest and has only forked repositories
+wesbos/dad-jokes#212: pull request has few changes either in a single file or only in documentation
+OCA/website#774: user registered less than one day before Hacktoberfest and has only forked repositories
+Python-World/python-mini-projects#283: only one file changed with either additions or delitions only
+kaustubhgupta/Hacktoberfest2020_#66: user registered less than one day before Hacktoberfest and has only forked repositories
+weyert/passenger-turbogears-example#3: pull request has few changes either in a single file or only in documentation
+nim-lang/website#221: pull request has few changes either in a single file or only in documentation
+verekia/initializr-website#19: pull request has few changes either in a single file or only in documentation
+wesbos/dad-jokes#211: only one file changed with either additions or delitions only
+parcel-bundler/website#700: user registered less than one day before Hacktoberfest and has only forked repositories
+enable3d/enable3d-website#43: pull request has few changes either in a single file or only in documentation
+camunda/camunda-bpm-platform#1038: ok
+kaustubhgupta/Hacktoberfest2020_#65: only one file changed with either additions or delitions only
+kaustubhgupta/Hacktoberfest2020_#63: only one file changed with either additions or delitions only
+smoke-trees/website#43: user registered less than one day before Hacktoberfest and has only forked repositories
+PHPGangsta/WebsiteToImage#75: user registered less than one day before Hacktoberfest and has only forked repositories
+jonbarron/website#49: user registered less than one day before Hacktoberfest and has only forked repositories
+techqueria/website#761: pull request has few changes either in a single file or only in documentation
+PHPGangsta/WebsiteToImage#74: user registered less than one day before Hacktoberfest and has only forked repositories
+rust-lang/rustc-perf#778: pull request has few changes either in a single file or only in documentation
+dipakkr/A-to-Z-Resources-for-Students#1302: pull request has few changes either in a single file or only in documentation
+owntracks/android#860: ok
+faif/python-patterns#355: pull request has few changes either in a single file or only in documentation
+OCA/website-cms#116: pull request has few changes either in a single file or only in documentation
+grails/grails-static-website#154: pull request has few changes either in a single file or only in documentation
+owntracks/android#859: pull request has few changes either in a single file or only in documentation
+OCA/website-themes#77: user registered less than one day before Hacktoberfest and has only forked repositories
+bartol/bdeak.net#20: pull request has few changes either in a single file or only in documentation
+PHPGangsta/WebsiteToImage#73: user registered less than one day before Hacktoberfest and has only forked repositories
+owntracks/android#858: pull request has few changes either in a single file or only in documentation
+TokTok/website#237: pull request has few changes either in a single file or only in documentation
