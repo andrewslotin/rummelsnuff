@@ -24,15 +24,8 @@ func main() {
 		SpamLabel = lbl
 	}
 
-	var token string
-	switch {
-	case os.Getenv("ACTIONS_RUNTIME_TOKEN") != "":
-		token = os.Getenv("ACTIONS_RUNTIME_TOKEN")
-	case os.Getenv("GITHUB_TOKEN") != "":
-		token = os.Getenv("GITHUB_TOKEN")
-	case os.Getenv("ACCESS_TOKEN") != "":
-		token = os.Getenv("ACCESS_TOKEN")
-	default:
+	token := os.Getenv("ACCESS_TOKEN")
+	if token == "" {
 		log.Fatalln("missing token")
 	}
 
