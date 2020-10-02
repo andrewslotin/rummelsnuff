@@ -119,8 +119,6 @@ func ParsePullRequestNumber(ref string) (int, error) {
 }
 
 func MarkAsSpam(ctx context.Context, owner, repo string, num int, client *github.Client) error {
-	return nil
-
 	_, _, err := client.Issues.AddLabelsToIssue(ctx, owner, repo, num, []string{SpamLabel})
 	if err != nil {
 		return fmt.Errorf("failed to mark pull request as spam: %w", err)
