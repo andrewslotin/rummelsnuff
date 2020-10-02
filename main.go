@@ -81,21 +81,21 @@ func main() {
 	}
 
 	if u.GetCreatedAt().After(HacktoberfestStartDate.Add(-24*time.Hour)) && len(repos) == forksCount {
-		log.Printf("%s/%s#%d: user registered less than one day before Hacktoberfest and has only forked repositories", owner, repo, prNum)
+		fmt.Printf("::error %s/%s#%d: user registered less than one day before Hacktoberfest and has only forked repositories", owner, repo, prNum)
 		MarkAsSpam(ctx, owner, repo, prNum, client)
-		return
+		os.Exit(1)
 	}
 
 	if (len(files) == 1 || docsOnly) && pr.GetAdditions()+pr.GetDeletions() < 11 {
-		log.Printf("%s/%s#%d: pull request has few changes either in a single file or only in documentation", owner, repo, prNum)
+		fmt.Printf("::error %s/%s#%d: pull request has few changes either in a single file or only in documentation", owner, repo, prNum)
 		MarkAsSpam(ctx, owner, repo, prNum, client)
-		return
+		os.Exit(1)
 	}
 
 	if len(files) == 1 && (pr.GetAdditions() == 0 || pr.GetDeletions() == 0) {
-		log.Printf("%s/%s#%d: only one file changed with either additions or delitions only", owner, repo, prNum)
+		fmt.Printf("::error %s/%s#%d: only one file changed with either additions or delitions only", owner, repo, prNum)
 		MarkAsSpam(ctx, owner, repo, prNum, client)
-		return
+		os.Exit(1)
 	}
 }
 
