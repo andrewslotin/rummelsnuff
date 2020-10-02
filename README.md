@@ -10,7 +10,7 @@ A pull request is considered as spam in following cases:
 
 * The author has registered after this year's Hacktoberfest and has only forked repositories
 * The PR is changing documentation insignificantly
-* The PR consists of additions or deletions only
+* The PR consists of additions or deletions in a single file only
 
 Configuration
 -------------
