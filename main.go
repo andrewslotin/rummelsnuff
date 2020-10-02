@@ -35,8 +35,8 @@ func main() {
 	)
 	tc := oauth2.NewClient(ctx, ts)
 
-	log.Printf("GITHUB_REPOSITORY=%s", os.Getenv("GITHUB_REPOSITORY"))
-	log.Printf("GITHUB_SHA=%s", os.Getenv("GITHUB_SHA"))
+	fmt.Println("GITHUB_EVENT_PATH=", os.Getenv("GITHUB_EVENT_PATH"))
+	fmt.Println("INPUT_PR_NUM=", os.Getenv("INPUT_PR_NUM"))
 
 	client := github.NewClient(tc)
 
@@ -45,15 +45,7 @@ func main() {
 		log.Fatalln(err)
 	}
 
-	prNum, err := parsePullRequestNumber(os.Getenv("GITHUB_REF"))
-	if err != nil {
-		log.Printf("failed to find the pull request by ref: %s", err)
-
-		prNum, err = GetPullRequestBySHA(ctx, owner, repo, os.Getenv("GITHUB_SHA"), client)
-		if err != nil {
-			log.Fatalln(err)
-		}
-	}
+	prNum, err := getPullRequestNumber(ctx, owner, repo, client)
 
 	pr, _, err := client.PullRequests.Get(ctx, owner, repo, prNum)
 	if err != nil {
@@ -130,6 +122,24 @@ func parsePullRequestNumber(ref string) (int, error) {
 	}
 
 	return n, nil
+}
+
+func getPullRequestNumber(ctx context.Context, owner, repo string, client *github.Client) (int, error) {
+	if prNum, err := strconv.Atoi(os.Getenv("INPUT_PR_NUM")); err == nil {
+		return prNum, nil
+	}
+
+	prNum, err := parsePullRequestNumber(os.Getenv("GITHUB_REF"))
+	if err != nil {
+		log.Printf("failed to find the pull request by ref: %s", err)
+
+		prNum, err = GetPullRequestBySHA(ctx, owner, repo, os.Getenv("GITHUB_SHA"), client)
+		if err != nil {
+			return 0, fmt.Errorf("failed to find the PR by SHA: %s", err)
+		}
+	}
+
+	return prNum, nil
 }
 
 func GetPullRequestBySHA(ctx context.Context, owner, repo, sha string, client *github.Client) (int, error) {
