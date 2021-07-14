@@ -115,7 +115,7 @@ func main() {
 	}
 
 	if len(files) == 1 && (pr.GetAdditions() == 0 || pr.GetDeletions() == 0) {
-		fmt.Printf("::error %s/%s#%d: only one file changed with either additions or delitions only", owner, repo, prNum)
+		fmt.Printf("::error %s/%s#%d: only one file changed with either additions or deletions only", owner, repo, prNum)
 		if err := MarkAsSpam(ctx, owner, repo, prNum, client); err != nil {
 			log.Printf("failed to close a spam pr: %s", err)
 		}
